@@ -13,6 +13,8 @@ ________________________________________
 •	Straight-through Ethernet cables<br>
 ________________________________________
 # Network Topology Diagram
+<img width="1920" height="1080" alt="Screenshot 2026-11-18 174556" src="https://github.com/user-attachments/assets/db004ad3-a4c2-40e9-b2f2-03897ded178a" />
+
 # Description:
 •	PC0 and PC1 belong to VLAN 10 (192.168.10.0/24)<br>
 •	PC2 and PC3 belong to VLAN 20 (192.168.20.0/24)<br>
@@ -88,9 +90,17 @@ Router(config-if)# no shutdown<br>
 ________________________________________
 # Output (Screenshots)
 •	VLAN configuration on the switch<br>
+<img width="861" height="696" alt="image" src="https://github.com/user-attachments/assets/53cce4bb-d5aa-41e3-a7c3-fe801c3f9f9e" />
+
 •	Router subinterface configuration<br>
+<img width="1042" height="422" alt="Screenshot 2026-11-18 181236" src="https://github.com/user-attachments/assets/784dd639-4546-4a79-bc1a-af73d81401ed" />
+
 •	PC IP settings<br>
+<img width="922" height="420" alt="image" src="https://github.com/user-attachments/assets/3284c1b8-5b80-4229-885f-e5c8f87efc97" />
+
 •	Successful ping between PCs in different VLANs after routing<br>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a0200eed-02c1-466f-baf3-f36e3a9cedae" />
+
 •	Successful ping between PCs in the same VLAN<br>
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6b3f5415-c29f-4fab-b01c-95a64971acb0" />
 
